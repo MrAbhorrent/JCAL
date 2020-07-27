@@ -32,6 +32,7 @@ public class Sportsman {
         setJump_limit(jump_limit);
     }
 
+<<<<<<< HEAD
     public boolean run(int distance) {
         if (distance < run_limit) return true;
         return false;
@@ -40,6 +41,22 @@ public class Sportsman {
     public boolean jump(int height) {
         if (height < jump_limit) return true;
         return false;
+=======
+    public void run(int distance) {
+        if (distance < run_limit) {
+            System.out.println("Дистанция пройдена");
+        } else {
+            System.out.println("Дистанция не пройдена");
+        }
+    }
+
+    public void jump(int height) {
+        if (height < jump_limit) {
+            System.out.println("Высота покорена");
+        } else {
+            System.out.println("Высота не взята");
+        }
+>>>>>>> 4eff947... Исправлены вывод методов jun() и run()
     }
 
     /*public void execute(Object someObject) {
