@@ -21,16 +21,9 @@ public class Main {
         // Может создать родительский класс для препядствий и  из него сделать массив?
         ObstacleCourse = new Object[]{new Wall(1), new Treadmill(50), new Wall(2), new Treadmill(150), new Wall(3), new Treadmill(500)};
 
-<<<<<<< HEAD
-        for (Sportsman sportsmen: sportsmens) {
-            sportsmen.info();
-            sportsmen.jump(ObstacleCourse[0]);
-        }
-=======
         /*for (Sportsman sportsmen: sportsmens) {
             sportsmen.info();
             sportsmen.jump(ObstacleCourse[0]);
         }*/
->>>>>>> 4eff947... Исправлены вывод методов jun() и run()
     }
 }

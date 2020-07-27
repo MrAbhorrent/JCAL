@@ -75,6 +75,7 @@ public class Sportsman {
     public void info() {
 
         System.out.println(this);
+        return;
     }
 
     @Override
